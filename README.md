@@ -1,0 +1,1 @@
+These are made as learning exercises, click on each of the directories for more details.
