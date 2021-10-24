@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.first, .second {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.first {
+  background-image: url('https://placekitten.com/g/900/700');
+}
+
+.second {
+  background-image: url('https://placekitten.com/g/800/600');
+}
+
+.content {
+  box-sizing: border-box;
+  width: 248px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  line-height: 1.5;
+  z-index: 1;
+  padding: 8px 0 20px;
+  position: absolute;
+}
+
+.firstContent {
+  top: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.secondContent {
+  top: 120px;
+  left: 140px;
+}
+
+.thirdContent {
+  top: 300px;
+  right: 140px;
+}
+
+.lastContent {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
