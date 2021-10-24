@@ -4,21 +4,19 @@
   position: relative;
 }
 
-.first, .second {
-  width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  margin: 0;
-}
-
 .first {
   background-image: url('https://placekitten.com/g/900/700');
 }
 
 .second {
   background-image: url('https://placekitten.com/g/800/600');
+}
+
+.first, .second {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content {

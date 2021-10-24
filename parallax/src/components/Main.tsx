@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, memo } from 'react';
 import withParallax from '../hoc/withParallax';
 import styles from './Main.module.css';
 
@@ -55,4 +55,4 @@ const Main: FC<Props> = ({ offsetY }: Props) => {
   );
 };
 
-export default withParallax(Main);
+export default memo(withParallax(Main));
