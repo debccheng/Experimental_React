@@ -3,9 +3,9 @@
 * Created HOC `withParallax` to wrap page of interest and pass down `offsetY` to children components.
 * `transform: translateY(offsetY * [factor]px)` is used to manipulate scrolling speed of certain components to create parallax effect.
 * Considerations if implemented in a real web app:
-  * Layout planning - moving components can be confusing to the user if not executed well
-  * Page speed
-  * Smooth scrolling
+  * Layout planning - Moving components can be confusing to the user if not executed well.
+  * Page speed & scalability - Would more components on the page create lag?
+  * Smooth scrolling/Browser compatibility - Seems to be more choppy on Chrome.
   * Mobile view
 
 # Demo
